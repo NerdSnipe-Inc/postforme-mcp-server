@@ -143,9 +143,10 @@ export const webhookTools = [
     inputSchema: z.object({
       id: z.string().describe("Webhook ID to delete"),
     }),
-    handler: async (args: { id: string }, config: PostForMeConfig) => {
+    handler: async (args: Record<string, unknown>, config: PostForMeConfig) => {
+      const { id } = args as { id: string };
       try {
-        const result = await pfmRequest("DELETE", `/v1/webhooks/${args.id}`, {
+        const result = await pfmRequest("DELETE", `/v1/webhooks/${id}`, {
           apiKey: config.apiKey,
         });
         return JSON.stringify(result, null, 2);
