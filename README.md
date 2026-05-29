@@ -25,15 +25,15 @@ Once installed, your AI can manage social media end-to-end:
 
 **21 tools** covering the full Post for Me API:
 
-| Category | Tools |
-|---|---|
-| Media | Upload signed URLs for images and videos |
-| Social Posts | Create, schedule, update, delete posts across all platforms |
-| Post Results | Fetch publish outcomes, errors, and platform URLs |
-| Social Accounts | Connect, manage, and disconnect platform accounts |
-| Account Feeds | Retrieve every post from a connected account (including non-API posts) with metrics |
-| Webhooks | Subscribe to post and account events |
-| Post Previews | Preview exactly what a post will look like before publishing |
+| Category        | Tools                                                                               |
+|-----------------|-------------------------------------------------------------------------------------|
+| Media           | Upload signed URLs for images and videos                                            |
+| Social Posts    | Create, schedule, update, delete posts across all platforms                         |
+| Post Results    | Fetch publish outcomes, errors, and platform URLs                                   |
+| Social Accounts | Connect, manage, and disconnect platform accounts                                   |
+| Account Feeds   | Retrieve every post from a connected account (including non-API posts) with metrics |
+| Webhooks        | Subscribe to post and account events                                                |
+| Post Previews   | Preview exactly what a post will look like before publishing                        |
 
 **Supported platforms:** Bluesky · Facebook · Instagram · LinkedIn · Pinterest · Threads · TikTok · TikTok Business · X (Twitter) · YouTube
 
@@ -527,13 +527,13 @@ Keep tool names prefixed with `pfm_` and handler args typed as `Record<string, u
 
 ## License
 
-MIT © [NerdSnipe Inc](https://nerdsnipe.cc)
+MIT © [Small Business AI Specialist](https://nerdsnipe.cc)
 
 ---
 
 ## Related
 
-- [Post for Me](https://www.postforme.dev/)
+- [Post for Me](https://www.postforme.dev/?ref=NerdSnipeInc) — the social media scheduling and publishing platform behind the API
 - [Post for Me API Docs](https://docs.postforme.dev/)
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
