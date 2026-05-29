@@ -15,6 +15,10 @@
 
 import "dotenv/config";
 
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const { version: PKG_VERSION } = require("../package.json") as { version: string };
+
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import {
@@ -123,7 +127,7 @@ function zodToJsonSchema(schema: z.ZodTypeAny): Record<string, unknown> {
 // ── MCP Server ─────────────────────────────────────────────────────────────────
 
 const server = new Server(
-  { name: "postforme-mcp-server", version: "1.0.0" },
+  { name: "postforme-mcp-server", version: PKG_VERSION },
   { capabilities: { tools: {} } }
 );
 
@@ -186,7 +190,7 @@ async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
   console.error(
-    `Post for Me MCP Server v1.0.0 running — ${ALL_TOOLS.length} tools available`
+    `Post for Me MCP Server v${PKG_VERSION} running — ${ALL_TOOLS.length} tools available`
   );
 }
 
