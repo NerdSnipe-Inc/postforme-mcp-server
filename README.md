@@ -1,4 +1,4 @@
-# Post for Me MCP Server
+# PostforMe MCP Server
 
 > Give any AI agent — Claude, Cursor, Windsurf, or any MCP-compatible client — full control over your social media through natural language.
 
