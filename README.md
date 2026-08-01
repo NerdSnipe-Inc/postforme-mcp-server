@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js: >=18](https://img.shields.io/badge/Node.js-%3E%3D18-green)](https://nodejs.org)
 [![MCP Protocol](https://img.shields.io/badge/MCP-1.0-blue)](https://modelcontextprotocol.io)
-[![Post for Me](https://img.shields.io/badge/API-Post%20for%20Me-ff6b35)](https://www.postforme.dev/)
+[![PostforMe API](https://img.shields.io/badge/API-PostforMe-ff6b35)](https://www.postforme.dev/)
 [![MCP Badge](https://lobehub.com/badge/mcp/nerdsnipe-inc-postforme-mcp-server)](https://lobehub.com/mcp/nerdsnipe-inc-postforme-mcp-server)
 
 ---
