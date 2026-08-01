@@ -4,9 +4,9 @@
 
 [![npm version](https://img.shields.io/npm/v/@nerdsnipe-inc/postforme-mcp-server)](https://www.npmjs.com/package/@nerdsnipe-inc/postforme-mcp-server)
 [![npm downloads](https://img.shields.io/npm/dm/@nerdsnipe-inc/postforme-mcp-server)](https://www.npmjs.com/package/@nerdsnipe-inc/postforme-mcp-server)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
-[![MCP](https://img.shields.io/badge/protocol-MCP-purple)](https://modelcontextprotocol.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js: >=18](https://img.shields.io/badge/Node.js-%3E%3D18-green)](https://nodejs.org)
+[![MCP Protocol](https://img.shields.io/badge/MCP-1.0-blue)](https://modelcontextprotocol.io)
 [![Post for Me](https://img.shields.io/badge/API-Post%20for%20Me-ff6b35)](https://www.postforme.dev/)
 [![MCP Badge](https://lobehub.com/badge/mcp/nerdsnipe-inc-postforme-mcp-server)](https://lobehub.com/mcp/nerdsnipe-inc-postforme-mcp-server)
 
