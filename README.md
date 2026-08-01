@@ -8,6 +8,7 @@
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
 [![MCP](https://img.shields.io/badge/protocol-MCP-purple)](https://modelcontextprotocol.io)
 [![Post for Me](https://img.shields.io/badge/API-Post%20for%20Me-ff6b35)](https://www.postforme.dev/)
+[![MCP Badge](https://lobehub.com/badge/mcp/nerdsnipe-inc-postforme-mcp-server)](https://lobehub.com/mcp/nerdsnipe-inc-postforme-mcp-server)
 
 ---
 
